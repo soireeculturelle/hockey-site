@@ -1,6 +1,7 @@
 html, body {
   margin: 0;
   padding: 0;
+
 }
 
 body {
@@ -34,13 +35,13 @@ body {
 
 .header h1 {
   margin: 0;
-  font-size: 30px;
+  font-size: 4rem;
   color: #fff;
 }
 
 .header h3 {
   color: #fff;
-  font-size: 14px;
+  font-size: 2rem;
   display: inline-block;
   margin: 0;
   font-weight: normal;
@@ -69,7 +70,7 @@ body {
   background-size: cover;
   height: 300px;
   width: 100%;
-  font-size: 50px;
+  font-size: 2.5rem;
   text-align: center;
   vertical-align: middle;
   line-height: 300px;
@@ -99,14 +100,14 @@ body {
 }
 
 .col-md-4 {
-    font-size: 30px;
+    font-size: 3rem;
   vertical-align: middle;
   color: black;
 }
 
 .supporting h2 {
   color: black;
-  font-size: 24px;
+  font-size: 3rem;
   font-weight: bold;
   margin: 30px 0;
   text-align: center;
@@ -150,13 +151,20 @@ body {
 }
 
 
+
+/* Content Pages */
+
+.content{
+  font-size: 2.5rem;
+}
+
 .video, .button{
   width: 100%;
   text-align: center;
   margin: 3rem;
 }
 
-#crosby2, #crosby3{
+#content2, #content3, #content4{
   display: none;
 }
 
@@ -175,24 +183,55 @@ body {
   margin: 20rem;
 }
 
-.answer-button{
+
+
+
+.answer-button, .button{
   background-color: black;
   color:white;
   width: 100px;
   height: 45px;
   font-size: 3rem;
+  text-align: center;
+  margin:auto;
+  
 
-  display: inline-block;
-  margin: 5em;
-
+  display: block;
    -moz-box-shadow:    2px 2px 4px 5px #ccc;
   -webkit-box-shadow: 2px 2px 4px 5px #ccc;
   box-shadow:         2px 2px 4px 5px #ccc;
 
 }
 
+#checkAnswer{
+  background-color: green;
+  color:white;
+  width: 400px;
+  height: 45px;
+  font-size: 3rem;
+  text-align: center;
+  margin:auto;
+  
+
+  display: block;
+   -moz-box-shadow:    2px 2px 4px 5px #ccc;
+  -webkit-box-shadow: 2px 2px 4px 5px #ccc;
+  box-shadow:         2px 2px 4px 5px #ccc;
+
+}
+
+
+
 .answer-button:hover{
   background-color: darkgrey;
+}
+
+.button:hover{
+  background-color: darkgrey;
+}
+
+#checkAnswer:hover{
+  background-color: lightgreen;
 }
 
 .q2, .q3, .q4{

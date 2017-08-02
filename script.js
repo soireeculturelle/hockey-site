@@ -26,25 +26,36 @@ $(document).ready(function(){
   
   }); */
 
-  $('#crosby1-2').click(function(){
+  $('#content1-2').click(function(){
       $('.content').hide();
-      $('#crosby2').toggle();
+      $('#content2').toggle();
   });
 
-   $('#crosby2-1').click(function(){
+   $('#content2-1').click(function(){
       $('.content').hide();
-      $('#crosby1').toggle();
+      $('#content1').toggle();
   });
 
-  $('#crosby2-3').click(function(){
+  $('#content2-3').click(function(){
       $('.content').hide();
-      $('#crosby3').toggle();
+      $('#content3').toggle();
   });
 
-  $('#crosby3-2').click(function(){
+  $('#content3-2').click(function(){
       $('.content').hide();
-      $('#crosby2').toggle();
+      $('#content2').toggle();
   });
+
+   $('#content3-4').click(function(){
+      $('.content').hide();
+      $('#content4').toggle();
+  });
+
+   $('#content4-3').click(function(){
+      $('.content').hide();
+      $('#content3').toggle();
+  });
+
 
 
 //Issue: getting next question to appear after correct answer (parents)//
